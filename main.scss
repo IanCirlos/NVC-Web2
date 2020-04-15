@@ -1,0 +1,21 @@
+.no-transition {
+	background: tomato;
+	height: 150px;
+    width: 200px;
+    &:hover {
+        width: 400px;
+    }
+}
+
+.transition {
+	background: turquoise;
+	height: 150px;
+    width: 200px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    &:hover {
+        width: 400px;
+    }
+}
+
+
